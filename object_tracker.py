@@ -46,7 +46,7 @@ def detect_image(img):
         detections = utils.non_max_suppression(detections, 80, conf_thres, nms_thres)
     return detections[0]
 
-videopath = '../data/video/overpass.mp4'
+videopath = 'highway.mp4'
 
 import cv2
 from sort import *
